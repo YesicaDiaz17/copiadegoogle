@@ -23,7 +23,6 @@ header nav .nav-right-section{
     justify-content: center;
     align-items: center;
 }
-
 a{ 
     text-decoration: none;
     margin-right: 25px;
@@ -44,6 +43,7 @@ height: 35px;
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    color: #000001;
 }
 
 main{
@@ -142,6 +142,7 @@ main .main-buttons button:hover{
     cursor: pointer;
 }
 
+
 footer{
     width: 100%;
     height: 50px;
@@ -149,10 +150,10 @@ footer{
     position: absolute;
     bottom: 0;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
     font-size: 15px;
-    border-top: 1px solid #e4e4e4; 
+    border-top: 1px solid #e4e4e4;
 }
 
 footer ul{
@@ -162,10 +163,10 @@ footer ul{
     padding-left: 0;
 }
 
-footer .footer-left{
+footer.footer-left{
     justify-self: left;
 }
 
-footer.footer-right{
+footer .footer-right{
     justify-self: right;
 }
